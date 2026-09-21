@@ -16,3 +16,26 @@ int main()
 
 	return 0;
 }
+
+void Initialize()
+{
+	cout << "Initializing" << endl;
+}
+
+void GetInput()
+{
+	cout << "Getting Input..." << endl;
+}
+void Update()
+{
+	cout << "Updating" << endl;
+}
+void Render()
+{
+	cout << "Rendering..." << endl;
+}
+
+void Shutdown()
+{
+	cout << "Shutting down";
+}
