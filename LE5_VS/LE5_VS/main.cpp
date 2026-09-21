@@ -11,8 +11,16 @@ void Shutdown();
 
 int main()
 {
-	cout << "Hello World" << endl;
+	Initialize();
 
+	while (true)
+	{
+		GetInput();
+		Update();
+		Render();
+	}
+
+	Shutdown();
 
 	return 0;
 }
